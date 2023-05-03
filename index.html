@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="iphone.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/06aa983bed.js" crossorigin="anonymous"></script>
+  <body>
+    <div class="iphone">
+      <div class="top"></div>
+      <div class="screen">
+        <!-- Head -->
+        <div class="header">
+          <i class="fa-solid fa-arrow-down"></i>
+          <h4 class="indi">Music</h4>
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <!-- Banner And Title -->
+        <div class="banner">
+          <div class="cover">
+            <img src="images/cover.jpg" class="songbanner">
+          </div>
+          <h2 class="singer">Arijit Singh</h2>
+          <h4 class="title move">Aj Jane ki Zidd Na Kro</h4>
+        </div>
+        <!--Controls-->
+        <div class="controls">
+          <div class="length">
+            <span></span>
+            <span></span>
+          </div>
+          <input type="range" value="0" class="track" />
+          <div class="buttons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward"></i>
+          </div>
+        </div>
+        <!--Audio-->
+        <div>
+          <audio class="song">
+            <source src="Arijit.mp3" type="audio/ogg">
+          </audio>
+        </div>
+      </div>
+      <div class="btn"></div>
+    </div>
+    <!--SCRIPT-->
+  <script src="script.js"></script>
+</body>
+</html>
